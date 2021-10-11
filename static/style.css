@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    /* font-family: 'Pacifico', cursive; */
+}
+
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 0px 10px;
+    font-size: 20px;
+    color: indigo;
+}
+
+#logo img{
+    height: 35px;
+    /* filter: invert(1); */
+    margin-right: 10px;
+}
+
+#navbar{
+    background-color: khaki;
+    padding: 20px 0px;
+    font-family: 'Pacifico', cursive;
+}
+
+#navbar ul{
+    display: flex;
+    /* flex-direction: row; */
+    /* justify-content: center; */
+    align-items: center;
+}
+
+#navbar li{
+    list-style: none;
+}
+
+#navbar li a{
+    text-decoration: none;
+    margin: 0px 30px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#navbar li a:hover{
+    color: coral;
+    font-stretch: ultra-expanded;
+}
+
+#introsection{
+    height: 450px;
+    background-color: aqua;
+    background: center / cover no-repeat url(/static/dance-academy.jpg);
+    color: #05c6f2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 55px;
+    font-weight: bolder;
+    
+}
+
+#introsection div{
+    padding: 10px;
+    background-color: hotpink;
+}
+
+#introsection div#small{
+    font-size: 45px;
+}
+
+#ourmission{
+    height: 300px;
+    width: 70%;
+    margin: auto;
+    display: block;
+}
+
+#ourmission h1{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.card{
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 28%;
+    height: 200px;
+    margin: 20px 25px;
+    display: inline-block;
+    /* background-color: rgba(95, 158, 160, 0.541); */
+}
+
+
+.card h3{
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    margin-top: 15px;
+}
+
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-img{
+    height: 143px;
+    padding: 0px 15px;
+}
+
+.card-img img{
+    height: inherit;
+}
+
+#sponsorsection{
+    height: 300px;
+    background-color: burlywood;
+}
+
+#sponsorsection h1{
+    text-align: center;
+    padding-top: 20px;
+}
+
+#sponsors{
+    height: 210px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.spImage{
+    height: 50%;
+    margin: 55px 30px;
+}
+
+#footer{
+    height: 40px;
+    color: lawngreen;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-style: italic;
+    font-family: fantasy;
+}

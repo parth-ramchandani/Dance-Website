@@ -1,0 +1,60 @@
+doctype html
+html
+  head
+    title Parth Dance Academy
+    style
+      include ../static/style.css
+    body
+        nav#navbar.top 
+            ul 
+                #logo 
+                    img(src="/static/images/logo.png")
+                    | PDA
+                li #[a(href = "/") Home] 
+                li #[a(href = "/") Services]
+                li #[a(href = "/") About]
+                li #[a(href = "/") Next Batch Info]
+                li #[a(href = "/") Contact Us]
+
+    section#introsection 
+        div Welcome to Parth's Dance Academy
+        div#small Eat Dance Sleep Repeat  
+
+    section#ourmission 
+        h1 Our Mission 
+        .card 
+            h3 Dance Perfection
+            div.card-box
+                .card-img 
+                    img(src="/static/Images/img1.jpg")
+                .card-content 
+                p This is the best dance academy of the MCU  
+        .card 
+            h3 Dance The Way You Like
+            div.card-box
+                .card-img 
+                    img(src="/static/Images/img2.jpg")
+                .card-content 
+                p This is the best dance academy of the MCU  
+        .card 
+            h3 Expert Teaching
+            div.card-box
+                .card-img 
+                    img(src="/static/Images/img3.jpg")
+                .card-content 
+                p This is the best dance academy of the MCU  
+
+    section#sponsorsection 
+        h1 Our Sponsors 
+        #sponsors 
+            img.spImage(src="/static/Images/sp1.png", alt="sponsor image-1")
+            img.spImage(src="/static/Images/sp2.jpg", alt="sponsor image-2")
+            img.spImage(src="/static/Images/sp3.png", alt="sponsor image-3")
+            img.spImage(src="/static/Images/sp4.jpg", alt="sponsor image-4")
+
+
+    footer#footer 
+        |Copyright &#169 2021 ParthDanceAcademy.in | All Rights reserved   
+
+        script 
+            include ../static/index.js        
